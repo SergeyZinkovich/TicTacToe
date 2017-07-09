@@ -51,7 +51,7 @@ function CheckWin(player){
 		((Elem[0][1] === player) && (Elem[1][1] === player) && (Elem[2][1] === player)) ||
 		((Elem[0][2] === player) && (Elem[1][2] === player) && (Elem[2][2] === player)) ||
 		((Elem[0][0] === player) && (Elem[1][1] === player) && (Elem[2][2] === player)) ||
-		((Elem[0][3] === player) && (Elem[2][2] === player) && (Elem[3][0] === player))){
+		((Elem[0][2] === player) && (Elem[1][1] === player) && (Elem[2][0] === player))){
 		GameStatus = 1;
 		Context.fillStyle = "red";
 		Context.fillRect(0, 100, 300, 100);
